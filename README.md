@@ -1,12 +1,12 @@
 # School Management App
 This is a web application for managing students, roles, and fields in a school environment.
 
-- Technologies Used
+##Technologies Used
   - Spring Boot
   - MySQL
   - React JS
-- Setup
-  - Backend (Spring Boot)
+## Setup
+  ### Backend (Spring Boot)
     1- Open application.properties located in src/main/resources.
     
     2- Update the following properties to match your MySQL database configuration:
@@ -23,7 +23,7 @@ This is a web application for managing students, roles, and fields in a school e
     
       ```server.port = 8082```
     
-  - Frontend (React JS)
+  ### Frontend (React JS)
     
     For the frontend part, you'll need to set up your React environment separately.
     
@@ -37,9 +37,9 @@ This is a web application for managing students, roles, and fields in a school e
 
       ```npm start```
     
-- API Endpoints
+## API Endpoints
   
-    - Filiere
+  ### Filiere
       
       POST /api/filieres: Create a new filiere.
       
@@ -51,7 +51,7 @@ This is a web application for managing students, roles, and fields in a school e
       
       GET /api/filieres/{id}: Get a filiere by ID.
       
-    - Role
+  ### Role
       
       POST /api/roles: Create a new role.
       
@@ -63,7 +63,7 @@ This is a web application for managing students, roles, and fields in a school e
       
       GET /api/roles/{id}: Get a role by ID.
       
-    - Student
+  ### Student
       
       POST /api/students: Create a new student.
       
@@ -77,7 +77,7 @@ This is a web application for managing students, roles, and fields in a school e
       
       GET /api/students/filiere/{id}: Get students by filiere ID.
       
-- React Components
+## React Components
   
   - SharedLayout Component
     
