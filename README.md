@@ -11,15 +11,15 @@ This is a web application for managing students, roles, and fields in a school e
     
     2- Update the following properties to match your MySQL database configuration:
     
-      spring.datasource.url=jdbc:mysql://localhost:3307/school?serverTimezone=UTC
+      ``` spring.datasource.url=jdbc:mysql://localhost:3307/school?serverTimezone=UTC
     
-      spring.datasource.username=root
+          spring.datasource.username=root
     
-      spring.datasource.password=
+          spring.datasource.password=```
 
     3- You can change the server port in the application.properties file if needed:
     
-      server.port = 8082
+      ```server.port = 8082```
     
   - Frontend (React JS)
     
@@ -29,11 +29,11 @@ This is a web application for managing students, roles, and fields in a school e
     
     2- Install dependencies:
 
-      npm install
+      ```npm install```
 
     3- Start the React app:
 
-      npm start
+      ```npm start```
     
 - API Endpoints
   
