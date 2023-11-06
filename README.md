@@ -126,12 +126,9 @@ This is a web application for managing students, roles, and fields in a school e
 
 ![Capture d'écran 2023-11-06 225334](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/18f34a72-1dbc-47b1-8dd0-45ae6cab6063)
 
-
 ![Capture d'écran 2023-11-06 224502](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/45eaa83d-0b7b-4005-912b-d521b2dedfb3)
 
 ![Capture d'écran 2023-11-06 224551](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/069348b6-7dc5-4ac4-bae2-281f05a1b41e)
-
-![Capture d'écran 2023-11-06 224611](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/22de0084-5077-4caa-85e5-50d9b3377b73)
 
 ![Capture d'écran 2023-11-06 224728](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/e9af49bb-8c3e-4c91-a343-1b3cfc3d351d)
 
