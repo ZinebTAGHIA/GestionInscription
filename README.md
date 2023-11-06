@@ -7,9 +7,9 @@ This is a web application for managing students, roles, and fields in a school e
   - React JS
 ## Setup
   ### Backend (Spring Boot)
-    1- Open application.properties located in src/main/resources.
+  1- Open application.properties located in src/main/resources.
     
-    2- Update the following properties to match your MySQL database configuration:
+  2- Update the following properties to match your MySQL database configuration:
     
       ```
           spring.datasource.url=jdbc:mysql://localhost:3307/school?serverTimezone=UTC
@@ -19,21 +19,21 @@ This is a web application for managing students, roles, and fields in a school e
           spring.datasource.password=
       ```
 
-    3- You can change the server port in the application.properties file if needed:
+  3- You can change the server port in the application.properties file if needed:
     
       ```server.port = 8082```
     
   ### Frontend (React JS)
     
-    For the frontend part, you'll need to set up your React environment separately.
+  For the frontend part, you'll need to set up your React environment separately.
     
-    1- Navigate to the frontend directory
+  1- Navigate to the frontend directory
     
-    2- Install dependencies:
+  2- Install dependencies:
 
       ```npm install```
 
-    3- Start the React app:
+  3- Start the React app:
 
       ```npm start```
     
