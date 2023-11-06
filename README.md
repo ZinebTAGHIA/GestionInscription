@@ -5,6 +5,7 @@ This is a web application for managing students, roles, and fields in a school e
   - Spring Boot
   - MySQL
   - React JS
+  - PrimeReact
 ## Setup
   ### Backend (Spring Boot)
   1- Open application.properties located in src/main/resources.
