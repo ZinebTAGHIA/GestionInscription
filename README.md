@@ -1,7 +1,7 @@
 # School Management App
 This is a web application for managing students, roles, and fields in a school environment.
 
-##Technologies Used
+## Technologies Used
   - Spring Boot
   - MySQL
   - React JS
