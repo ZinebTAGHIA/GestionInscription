@@ -11,11 +11,13 @@ This is a web application for managing students, roles, and fields in a school e
     
     2- Update the following properties to match your MySQL database configuration:
     
-      ``` spring.datasource.url=jdbc:mysql://localhost:3307/school?serverTimezone=UTC
+      ```
+          spring.datasource.url=jdbc:mysql://localhost:3307/school?serverTimezone=UTC
     
           spring.datasource.username=root
     
-          spring.datasource.password=```
+          spring.datasource.password=
+      ```
 
     3- You can change the server port in the application.properties file if needed:
     
