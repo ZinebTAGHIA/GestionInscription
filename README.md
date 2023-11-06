@@ -132,12 +132,24 @@ This is a web application for managing students, roles, and fields in a school e
 
 ![Capture d'écran 2023-11-06 224611](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/22de0084-5077-4caa-85e5-50d9b3377b73)
 
-![Capture d'écran 2023-11-06 224622](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/3ef30297-a141-42cf-a2fa-a6e3a142c97a)
-
-![Capture d'écran 2023-11-06 224632](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/5373a236-2acf-4d32-9dd6-515499abe483)
-
-![Capture d'écran 2023-11-06 224656](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/25bab3dc-13aa-4eec-9c2c-e92b31837910)
-
 ![Capture d'écran 2023-11-06 224728](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/e9af49bb-8c3e-4c91-a343-1b3cfc3d351d)
 
-![Capture d'écran 2023-11-06 224749](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/1b0bf68e-c999-4a4f-b1e6-7d0ced3d19ea)
+![Capture d’écran (1189)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/6894dc14-97c2-4c2e-8953-860f16233f73)
+
+![Capture d’écran (1190)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/d6a317ae-76b0-41a1-9692-0e7b6d394a66)
+
+![Capture d’écran (1192)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/b911f9a9-7ee9-4318-b6f9-7fa12390fa67)
+
+![Capture d’écran (1191)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/403bbb4a-2644-435c-85cc-db8a40a4ce88)
+
+![Capture d’écran (1193)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/b5b99a1e-f72e-462d-849c-e58558fc67e9)
+
+![Capture d’écran (1196)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/863fbc0f-3d79-4275-9afd-0501bbacd807)
+
+![Capture d’écran (1198)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/43e8b331-2c05-4cb8-ab87-5b7a68ea53b8)
+
+![Capture d’écran (1197)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/6e1cc4eb-448a-4dff-a4bb-c9b97638055a)
+
+![Capture d’écran (1199)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/4b34ad67-3612-4932-80d0-3552e4998e5f)
+
+![Capture d’écran (1200)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/57edef5e-9673-41b0-8b99-dadd29541f0a)
