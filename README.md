@@ -1,6 +1,19 @@
 # School Management App
 This is a web application for managing students, roles, and fields in a school environment.
 
+## Table of Contents
+  - [Technologies Used](#technologies-used)
+  - [Setup](#setup)
+    - [Backend (Spring Boot)](#backend-spring-boot)
+    - [Frontend (React JS)](#frontend-react-js)
+  - [API Endpoints](#api-endpoints)
+    - [Filiere](#filiere)
+    - [Role](#role)
+    - [Student](#student)
+  - [React Components](#react-components)
+  - [Demo](#demo)
+  - [Screenshots](#screenshots)
+
 ## Technologies Used
   - Spring Boot
   - MySQL
