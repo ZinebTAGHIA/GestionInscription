@@ -120,3 +120,24 @@ This is a web application for managing students, roles, and fields in a school e
   Here is the YouTube video link for the app demo:
   
   https://youtu.be/gM5FSeVDph8
+
+## Screenshots
+
+![Capture d'écran 2023-11-06 225334](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/18f34a72-1dbc-47b1-8dd0-45ae6cab6063)
+
+
+![Capture d'écran 2023-11-06 224502](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/45eaa83d-0b7b-4005-912b-d521b2dedfb3)
+
+![Capture d'écran 2023-11-06 224551](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/069348b6-7dc5-4ac4-bae2-281f05a1b41e)
+
+![Capture d'écran 2023-11-06 224611](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/22de0084-5077-4caa-85e5-50d9b3377b73)
+
+![Capture d'écran 2023-11-06 224622](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/3ef30297-a141-42cf-a2fa-a6e3a142c97a)
+
+![Capture d'écran 2023-11-06 224632](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/5373a236-2acf-4d32-9dd6-515499abe483)
+
+![Capture d'écran 2023-11-06 224656](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/25bab3dc-13aa-4eec-9c2c-e92b31837910)
+
+![Capture d'écran 2023-11-06 224728](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/e9af49bb-8c3e-4c91-a343-1b3cfc3d351d)
+
+![Capture d'écran 2023-11-06 224749](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/1b0bf68e-c999-4a4f-b1e6-7d0ced3d19ea)
