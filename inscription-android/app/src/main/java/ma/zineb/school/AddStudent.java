@@ -154,7 +154,6 @@ public class AddStudent extends AppCompatActivity implements AdapterView.OnItemS
             for (int i = 0; i < roleList.size(); i++) {
                 roleArray[i] = roleList.get(i).getName();
             }
-// Hna Hbeeeeeeeesssssstttt
 
             roles = findViewById(R.id.roles);
 
