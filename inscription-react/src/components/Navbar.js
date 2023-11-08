@@ -1,10 +1,7 @@
 import React from "react";
 import logo from "../logos/logo-ensaj.png";
-import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = (props) => {
-  const navigate = useNavigate();
-
   const handleToggleSidebarClick = () => {
     const allSideDivider = document.querySelectorAll("#sidebar .divider");
     if (props.isSidebarHiden == false) {
@@ -20,10 +17,6 @@ const Navbar = (props) => {
     document.querySelectorAll(".side-dropdown").forEach((dropdown) => {
       dropdown.classList.remove("show");
     });
-
-    // document.querySelectorAll(".side-menu li a").forEach((a) => {
-    //   // a.classList.remove("active");
-    // });
   };
 
   return (

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="7.5dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="7.5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_item_rounded_border"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+
+        <TextView
+            android:id="@+id/filiereName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Name Here"
+            android:textStyle="bold"
+            android:textColor="#252525"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/filiereID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="ID Here"
+            android:textColor="#252525"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/filiereCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/filiereName"
+            android:layout_marginTop="10dp"
+            android:text="Code Here"
+            android:textColor="#858585"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/buttonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="#00AAAAAA"
+            android:src="@drawable/ic_edit" />
+
+        <ImageButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="60dp"
+            android:background="#00AAAAAA"
+            android:src="@drawable/ic_delete" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

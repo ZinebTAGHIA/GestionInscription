@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Form, Field } from "react-final-form";
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
-import { Dropdown } from "primereact/dropdown";
 import axios from "../api/axios";
 import { Dialog } from "primereact/dialog";
 import { classNames } from "primereact/utils";
@@ -10,7 +9,7 @@ import "./styles/form.css";
 import { Link } from "react-router-dom";
 import { Panel } from "primereact/panel";
 import "./styles/form.css";
-import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 
 const AddFiliere = () => {
@@ -26,17 +25,6 @@ const AddFiliere = () => {
     if (!data.name) {
       errors.name = "L'intitulé est obligatoire.";
     }
-    // if (!data.cin) {
-    //   errors.cin = "CIN est obligatoire.";
-    // }
-    // if (!data.cne) {
-    //   errors.cne = "CNE est obligatoire.";
-    // }
-    // if (data.email) {
-    //   if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(data.email)) {
-    //     errors.email = "Adresse email invalide. E.g. example@email.com";
-    //   }
-    // }
     return errors;
   };
 
@@ -47,11 +35,6 @@ const AddFiliere = () => {
         .post(`/api/filieres`, {
           code: data.code,
           name: data.name,
-          // CIN: data.cin,
-          // CNE: data.cne,
-          // email: data.email,
-          // tel: data.tel,
-          // role: "Etudiant",
         })
         .then((response) => {
           console.log(response);
@@ -181,110 +164,6 @@ const AddFiliere = () => {
                             </div>
                           )}
                         />
-                        {/* <Field
-                          name="cin"
-                          render={({ input, meta }) => (
-                            <div className="field">
-                              <span className="p-float-label">
-                                <InputText
-                                  id="cin"
-                                  {...input}
-                                  autoFocus
-                                  className={classNames({
-                                    "p-invalid": isFormFieldValid(meta),
-                                  })}
-                                />
-                                <label
-                                  htmlFor="cin"
-                                  className={classNames({
-                                    "p-error": isFormFieldValid(meta),
-                                  })}
-                                >
-                                  CIN*
-                                </label>
-                              </span>
-                              {getFormErrorMessage(meta)}
-                            </div>
-                          )}
-                        />
-                        <Field
-                          name="cne"
-                          render={({ input, meta }) => (
-                            <div className="field">
-                              <span className="p-float-label">
-                                <InputText
-                                  id="cne"
-                                  {...input}
-                                  autoFocus
-                                  className={classNames({
-                                    "p-invalid": isFormFieldValid(meta),
-                                  })}
-                                />
-                                <label
-                                  htmlFor="cne"
-                                  className={classNames({
-                                    "p-error": isFormFieldValid(meta),
-                                  })}
-                                >
-                                  CNE*
-                                </label>
-                              </span>
-                              {getFormErrorMessage(meta)}
-                            </div>
-                          )}
-                        />
-                        <Field
-                          name="email"
-                          render={({ input, meta }) => (
-                            <div className="field">
-                              <span className="p-float-label p-input-icon-right">
-                                <i className="pi pi-envelope" />
-                                <InputText
-                                  id="email"
-                                  {...input}
-                                  className={classNames({
-                                    "p-invalid": isFormFieldValid(meta),
-                                  })}
-                                />
-                                <label
-                                  htmlFor="email"
-                                  className={classNames({
-                                    "p-error": isFormFieldValid(meta),
-                                  })}
-                                >
-                                  Email
-                                </label>
-                              </span>
-                              {getFormErrorMessage(meta)}
-                            </div>
-                          )}
-                        />
-                        <Field
-                          name="tel"
-                          render={({ input, meta }) => (
-                            <div className="field">
-                              <span className="p-float-label">
-                                <InputText
-                                  id="tel"
-                                  {...input}
-                                  autoFocus
-                                  className={classNames({
-                                    "p-invalid": isFormFieldValid(meta),
-                                  })}
-                                />
-                                <label
-                                  htmlFor="tel"
-                                  className={classNames({
-                                    "p-error": isFormFieldValid(meta),
-                                  })}
-                                >
-                                  Tel
-                                </label>
-                              </span>
-                              {getFormErrorMessage(meta)}
-                            </div>
-                          )}
-                        /> */}
                         <Button
                           type="submit"
                           label="Enregistrer"

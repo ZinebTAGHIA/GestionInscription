@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "../api/axios";
 import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 import { Dropdown } from "primereact/dropdown";
 import "./styles/list.css";
 import { Panel } from "primereact/panel";
-import { classNames } from "primereact/utils";
 
 const EtudiantsByFiliere = () => {
   const [data, setData] = useState();

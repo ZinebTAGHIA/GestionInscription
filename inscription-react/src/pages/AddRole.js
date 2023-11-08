@@ -10,7 +10,7 @@ import "./styles/form.css";
 import { Link } from "react-router-dom";
 import { Panel } from "primereact/panel";
 import "./styles/form.css";
-import "primereact/resources/themes/lara-light-indigo/theme.css"; //theme
+import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 
 const AddRole = () => {
