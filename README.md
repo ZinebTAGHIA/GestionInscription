@@ -13,6 +13,8 @@ This is a web and mobile application for managing students, roles, and fields in
   - [React Components](#react-components)
   - [Demo](#demo)
   - [Screenshots](#screenshots)
+    - [Web App](#web-app)
+    - [Mobile App](#mobile-app)
 
 ## Technologies Used
   - Spring Boot
