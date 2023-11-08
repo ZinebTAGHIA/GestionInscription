@@ -1,5 +1,5 @@
 # School Management App
-This is a web application for managing students, roles, and fields in a school environment.
+This is a web and mobile application for managing students, roles, and fields in a school environment.
 
 ## Table of Contents
   - [Technologies Used](#technologies-used)
@@ -19,6 +19,7 @@ This is a web application for managing students, roles, and fields in a school e
   - MySQL
   - React JS
   - PrimeReact
+  - Java
 ## Setup
   ### Backend (Spring Boot)
   1- Open application.properties located in src/main/resources.
@@ -90,7 +91,11 @@ This is a web application for managing students, roles, and fields in a school e
   **GET** /api/students/{id}: Get a student by ID.
       
   **GET** /api/students/filiere/{id}: Get students by filiere ID.
-      
+
+  The HTTP requests were tested using Swagger UI : 
+  
+  ![Capture d’écran (1205)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/a2a3fce4-286f-40db-b265-f3ab07259548)
+    
 ## React Components
   
   - **SharedLayout Component**
@@ -131,11 +136,13 @@ This is a web application for managing students, roles, and fields in a school e
     
 ## Demo
   
-  Here is the YouTube video link for the app demo:
+  Here is the YouTube video link for the web app demo:
   
   https://youtu.be/gM5FSeVDph8
 
 ## Screenshots
+
+### Web App
 
 ![Capture d'écran 2023-11-06 225334](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/18f34a72-1dbc-47b1-8dd0-45ae6cab6063)
 
@@ -162,3 +169,17 @@ This is a web application for managing students, roles, and fields in a school e
 ![Capture d’écran (1199)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/4b34ad67-3612-4932-80d0-3552e4998e5f)
 
 ![Capture d’écran (1200)](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/57edef5e-9673-41b0-8b99-dadd29541f0a)
+
+### Mobile App
+
+![Capture d'écran 2023-11-08 234656](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/cb262292-f575-4fbd-ae36-c6e9643b2753)
+
+![Capture d'écran 2023-11-08 234715](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/36276a12-76b7-460c-88b3-00d3b85b161d)
+
+![Capture d'écran 2023-11-08 234739](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/9b70afd1-f7e4-4089-b691-00392a713941)
+
+![Capture d'écran 2023-11-08 234840](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/33988551-7e27-40cd-a48c-7bbf8f70abf5)
+
+![Capture d'écran 2023-11-08 234856](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/cdd2d83b-4bcc-4f0f-a653-3934005a54b6)
+
+![Capture d'écran 2023-11-08 234918](https://github.com/ZinebTAGHIA/GestionInscription/assets/102872040/99633675-1b7e-4111-9d50-abdb01fd6717)
