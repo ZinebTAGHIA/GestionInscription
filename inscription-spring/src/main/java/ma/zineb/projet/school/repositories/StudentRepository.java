@@ -10,5 +10,5 @@ import java.util.List;
 @Repository
 public interface StudentRepository extends JpaRepository<Student, Long> {
     @Query("select s from Student s where s.filiere.id = ?1")
-    public List<Student> findStudentsByFiliere(Long id);
+    List<Student> findStudentsByFiliere(Long id);
 }
